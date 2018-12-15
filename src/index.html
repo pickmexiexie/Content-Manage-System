@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/base.css" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <title>后台管理系统</title>
+    </head>
+    <body>
+        <div id="cms">
+            <div id="header">
+                <div class="imcontainer">
+                    <div class="h_logo fl">
+                        <img src="image/taoshu_logo.gif" alt="taoshu.com" />
+                    </div>
+                    <div class="h_title fl">
+                        <h1 id="h_title_name">淘书网后台管理系统</h1>
+                    </div>
+                </div>
+            </div>
+            <div id="main">
+                <div class="imcontainer">
+                    <div id="cms_list">
+                        <h1>管理类目</h1>
+                        <ul id="cms_list_box">
+                            <li>
+                                <div class="cms_list_name">商品管理</div>
+                                <div class="cms_list_child hide">
+                                    <div id="cms_goodlist" class="cd"><a class="bl" href="./html/goodlist.html">商品列表</a></div>
+                                    <div id="cms_listkind" class="cd"><a class="bl" href="./html/listkind.html">商品分类</a></div>
+                                    <div id="cms_addgood" class="cd"><a class="bl" href="./html/addgood.html">添加商品</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cms_list_name">用户管理</div>
+                                <div class="cms_list_child hide">
+                                    <div id="cms_userlist" class="cd"><a class="bl" href="./html/userlist.html">用户列表</a></div>
+                                    <div id="cms_adduser" class="cd"><a class="bl" href="./html/adduser.html">添加用户</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cms_list_name">订单管理</div>
+                                <div class="cms_list_child hide">
+                                    <div id="cms_orderlist" class="cd"><a class="bl" href="./html/orderlist.html">订单列表</a></div>
+                                </div>
+                            </li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div id="cms_content">
+                        <div id="cms_location">
+                            <nav aria-label="breadcrumb">
+                              <ol class="breadcrumb bg-info">
+                                <li class="breadcrumb-item active" aria-current="page">首页</li>
+                              </ol>
+                            </nav>
+                        </div>
+                        <div id="cms_outdoor"><a class="ga" href="./html/login.html">退出登录</a></div>
+                        <div id="cms_data">
+                            <table id="ordercount">
+                                <tr class="or_header">
+                                    <td colspan="2">订单统计</td>
+                                    <td>
+                                        <span id="today" class="or_btn">今日</span>
+                                        <span id="tomorrow" class="or_btn">昨日</span>
+                                        <span id="near" class="or_btn">近7月</span>
+                                        <span id="cu_month" class="or_btn">本月</span>
+                                    </td>
+                                </tr>
+                                <tr class="or_footer">
+                                    <td>
+                                        <p class="cms_ordernum fc_y">20</p>
+                                        <p class="fs">成交量（本）</p>
+                                    </td>
+                                    <td>
+                                        <p class="cms_orderamount fc_y">20</p>
+                                        <p class="fs">成交额（元）</p>
+                                    </td>
+                                    <td>
+                                        <p class="cms_aloneamount fc_y">20</p>
+                                        <p class="fs">人均消费（元）</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="footer">
+                <div class="imcontainer">
+                    <p>系统版权归淘书公司所有</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
