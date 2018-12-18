@@ -26,7 +26,7 @@ a {text-decoration:none; }
 .clearfix{
     *zoom:1;/*IE/7/6*/
 }
-h1,h2,h3,h4,h5,h6 {font-weight:normal;font-size:1em;}  /*设置h标签的大小，设置跟父亲一样大的字体font-size:100%;*/
+h3,h4,h5,h6 {font-weight:normal;font-size:1em;}  /*设置h标签的大小，设置跟父亲一样大的字体font-size:100%;*/
 s,i,em{font-style:normal;text-decoration:none;}
 
 

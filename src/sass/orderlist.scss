@@ -1,0 +1,122 @@
+%public{
+    li{
+        width: 110px;
+        height: 40px;
+        line-height: 40px;
+        float: left;
+        border-right: 1px solid #999;
+        border-bottom: 1px solid #999;
+        box-sizing: border-box;
+        input{
+            width: 14px;
+            height: 14px;
+            border: #999 1px solid;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+    }
+    li:hover{
+        background: #eee;
+    }
+    .check,.uid{
+        width: 50px;
+        text-align: center;
+    }
+    .username,.sex,.age,.city,.title,.time,.word{
+        padding-left: 15px;
+    }
+}
+
+#cms_content{
+    #location{
+        background: #17a2b8;
+        width: 1130px;
+        height: 45px;
+        margin: 10px;
+        font-size: 14px;
+        border-radius: 3px;
+        li{
+            line-height: 45px;
+            margin: 0 15px;
+        }
+        .user{
+            float: left;
+            color: #666;
+            span{
+                margin: 0 5px;
+            }
+            b{
+                color: #333;
+            }
+        }
+        #cms_out{
+            float: right;
+            a{
+                color: #333;
+            }
+            a:hover{
+                color: rgb(196, 4, 4);
+            }
+        }
+    }
+    .button{
+        margin: 10px;
+        height: 30px;
+        li{
+            width: 85px;
+            line-height: 30px;
+            height: 30px;
+            border-radius: 2px;
+            float: left;
+            box-sizing: border-box;
+            cursor: pointer;
+            img{
+                width: 16px;
+                height: 16px;
+                margin: 7px;
+            }
+        }
+        .add{
+            background: #33bfd4;
+            margin:0 15px;
+            color: white;
+        }
+        .delete{
+            border: #999 1px solid;
+            color: #999;
+        }
+    }
+
+    #cms_users{
+        width: 870px;
+        border-left: 1px solid #999;
+        border-top: 1px solid #999;
+        margin-left:25px;
+        .cms_user{
+            height: 40px;
+            background: #eee;
+            @extend %public;
+        }
+        #userinf{
+            // height: 40px;
+            @extend %public;
+            ul{
+                margin-bottom: 0;
+                overflow: hidden;
+                .word{
+                    padding-left: 25px;
+                    img{
+                        width: 20px;
+                        height: 20px;
+                        cursor: pointer;
+                    }
+                }
+                .li_delete{
+                    border: #999 1px solid;
+                    box-sizing: border-box;
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+}

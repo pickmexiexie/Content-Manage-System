@@ -1,0 +1,138 @@
+#cms_content #cms_users .cms_user li, #cms_content #cms_users #userinf li {
+  width: 110px;
+  height: 40px;
+  line-height: 40px;
+  float: left;
+  border-right: 1px solid #999;
+  border-bottom: 1px solid #999;
+  box-sizing: border-box;
+}
+
+#cms_content #cms_users .cms_user li input, #cms_content #cms_users #userinf li input {
+  width: 14px;
+  height: 14px;
+  border: #999 1px solid;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#cms_content #cms_users .cms_user li:hover, #cms_content #cms_users #userinf li:hover {
+  background: #eee;
+}
+
+#cms_content #cms_users .cms_user .check, #cms_content #cms_users #userinf .check, #cms_content #cms_users .cms_user .uid, #cms_content #cms_users #userinf .uid {
+  width: 50px;
+  text-align: center;
+}
+
+#cms_content #cms_users .cms_user .username, #cms_content #cms_users #userinf .username, #cms_content #cms_users .cms_user .sex, #cms_content #cms_users #userinf .sex, #cms_content #cms_users .cms_user .age, #cms_content #cms_users #userinf .age, #cms_content #cms_users .cms_user .city, #cms_content #cms_users #userinf .city, #cms_content #cms_users .cms_user .title, #cms_content #cms_users #userinf .title, #cms_content #cms_users .cms_user .time, #cms_content #cms_users #userinf .time, #cms_content #cms_users .cms_user .word, #cms_content #cms_users #userinf .word {
+  padding-left: 15px;
+}
+
+#cms_content #location {
+  background: #17a2b8;
+  width: 1130px;
+  height: 45px;
+  margin: 10px;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+#cms_content #location li {
+  line-height: 45px;
+  margin: 0 15px;
+}
+
+#cms_content #location .user {
+  float: left;
+  color: #666;
+}
+
+#cms_content #location .user span {
+  margin: 0 5px;
+}
+
+#cms_content #location .user b {
+  color: #333;
+}
+
+#cms_content #location #cms_out {
+  float: right;
+}
+
+#cms_content #location #cms_out a {
+  color: #333;
+}
+
+#cms_content #location #cms_out a:hover {
+  color: #c40404;
+}
+
+#cms_content .button {
+  margin: 10px;
+  height: 30px;
+}
+
+#cms_content .button li {
+  width: 85px;
+  line-height: 30px;
+  height: 30px;
+  border-radius: 2px;
+  float: left;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+#cms_content .button li img {
+  width: 16px;
+  height: 16px;
+  margin: 7px;
+}
+
+#cms_content .button .add {
+  background: #33bfd4;
+  margin: 0 15px;
+  color: white;
+}
+
+#cms_content .button .delete {
+  border: #999 1px solid;
+  color: #999;
+}
+
+#cms_content #cms_users {
+  width: 870px;
+  border-left: 1px solid #999;
+  border-top: 1px solid #999;
+  margin-left: 25px;
+}
+
+#cms_content #cms_users .cms_user {
+  height: 40px;
+  background: #eee;
+}
+
+#cms_content #cms_users #userinf ul {
+  margin-bottom: 0;
+  overflow: hidden;
+}
+
+#cms_content #cms_users #userinf ul .word {
+  padding-left: 25px;
+}
+
+#cms_content #cms_users #userinf ul .word img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+#cms_content #cms_users #userinf ul .li_left {
+  background: #33bfd4;
+}
+
+#cms_content #cms_users #userinf ul .li_right {
+  border: #999 1px solid;
+  box-sizing: border-box;
+  margin-left: 15px;
+}

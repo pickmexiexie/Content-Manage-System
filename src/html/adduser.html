@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>添加用户</title>
+    <link rel="icon" type="image/x-icon" href="../image/login/tiger.ico">
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/common.css" />
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="../css/adduser.css" />
+    <script type="text/javascript" src="../js/common.js"></script>
+</head>
+
+<body>
+    <div id="cms">
+        <div id="header">
+            <div class="imcontainer">
+                <div class="h_logo fl">
+                    <img src="../image/taoshu_logo.gif" alt="taoshu.com" />
+                </div>
+                <div class="h_title fl">
+                    <h1 id="h_title_name">淘书网后台管理系统</h1>
+                </div>
+            </div>
+        </div>
+        <div id="main">
+            <div class="imcontainer">
+                <div id="cms_list">
+                    <h1>管理类目</h1>
+                    <ul id="cms_list_box">
+                        <li>
+                            <div class="cms_list_name">商品管理</div>
+                            <div class="cms_list_child hide">
+                                <div id="cms_goodlist" class="cd"><a class="bl" href="goodlist.html">商品列表</a></div>
+                                <div id="cms_listkind" class="cd"><a class="bl" href="listkind.html">商品分类</a></div>
+                                <div id="cms_addgood" class="cd"><a class="bl" href="addgood.html">添加商品</a></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="cms_list_name">用户管理</div>
+                            <div class="cms_list_child hide">
+                                <div id="cms_userlist" class="cd"><a class="bl" href="userlist.html">用户列表</a></div>
+                                <div id="cms_adduser" class="cd"><a class="bl" href="adduser.html">添加用户</a></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="cms_list_name">订单管理</div>
+                            <div class="cms_list_child hide">
+                                <div id="cms_orderlist" class="cd"><a class="bl" href="orderlist.html">订单列表</a></div>
+                            </div>
+                        </li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div id="cms_content">
+                    <nav id="location">
+                        <ol class="info">
+                            <li class="user">首页<span>/</span>用户管理<span>/</span><b>添加用户</b></li>
+                            <li id="cms_out"><a href="login.html">退出登录</a></li>
+                        </ol>
+                    </nav>
+                    <div class="m_body">
+                        <div class="contain">
+                            <form>
+                                <div class="usercall u1">
+                                    <label for="inputEmail4">用户名</label>
+                                    <input type="text" class="form-control username" id="inputEmail4" placeholder="请输入用户名">
+                                    <span class="username2"></span>
+
+                                </div>
+                                <div class="u1">
+                                    <label for="inputPassword4">昵称</label>
+                                    <input type="text" class="form-control nicheng" id="inputPassword4" placeholder="请输入昵称">
+                                    <span class="nicheng2"></span>
+                                </div>
+                                <div class="pass u1">
+                                    <label for="inputAddress">密码</label>
+                                    <input type="password" class="form-control password" id="inputAddress" placeholder="请输入密码">
+                                    <span class="password2"></span>
+                                </div>
+                                <div class="repass u1">
+                                    <label for="inputAddress2">确认密码</label>
+                                    <input type="password" class="form-control repassword" id="inputAddress2" placeholder="确认密码">
+                                    <span class="repassword2"></span>
+                                </div>
+                                <div class="phonesex">
+                                    <div class="u2">
+                                        <label for="inputZip">手机号</label>
+                                        <input type="text" class="form-control phone" id="inputZip" placeholder="请输入手机号">
+                                        <p class="phone2"></p>
+                                    </div>
+                                    <div class="u2">
+                                        <label for="inputState">性别</label>
+                                        <select id="inputState" class="form-control sex">
+                                            <option selected>请选择</option>
+                                            <option>男</option>
+                                            <option>女</option>
+                                            <option>其他</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="email1 u1">
+                                    <label for="exampleFormControlInput1">邮箱地址</label>
+                                    <input type="email" class="form-control email" id="exampleFormControlInput1"
+                                        placeholder="请输入邮箱地址">
+                                    <span class="email2"></span>
+                                </div>
+                                <div class="remark">
+                                    <label for="exampleFormControlTextarea1">备注</label>
+                                    <textarea class="rem_inf" id="exampleFormControlTextarea1" rows="5"></textarea>
+                                </div>
+                                <button type="button" class="btn btn-primary u3">确认</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="imcontainer">
+            <p>系统版权归淘书公司所有</p>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

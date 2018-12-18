@@ -1,0 +1,131 @@
+#cms_content .m_body .contain .u1 {
+  width: 800px;
+  height: 40px;
+  margin: 20px 0;
+}
+
+#cms_content .m_body .contain .u1 label {
+  float: left;
+  width: 80px;
+  line-height: 40px;
+  text-align: right;
+  margin-right: 20px;
+}
+
+#cms_content .m_body .contain .u1 input {
+  float: left;
+  width: 500px;
+}
+
+#cms_content .m_body .contain .u1 span {
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#cms_content #location {
+  background: #17a2b8;
+  width: 1130px;
+  height: 45px;
+  margin: 10px;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+#cms_content #location li {
+  line-height: 45px;
+  margin: 0 15px;
+}
+
+#cms_content #location .user {
+  float: left;
+  color: #666;
+}
+
+#cms_content #location .user span {
+  margin: 0 5px;
+}
+
+#cms_content #location .user b {
+  color: #333;
+}
+
+#cms_content #location #cms_out {
+  float: right;
+}
+
+#cms_content #location #cms_out a {
+  color: #333;
+}
+
+#cms_content #location #cms_out a:hover {
+  color: #c40404;
+}
+
+#cms_content .m_body {
+  height: 100%;
+  padding-top: 30px;
+}
+
+#cms_content .m_body .contain {
+  margin: 0 50px;
+}
+
+#cms_content .m_body .contain .phonesex {
+  width: 800px;
+  height: 40px;
+  margin: 15px 0;
+}
+
+#cms_content .m_body .contain .phonesex .u2 {
+  float: left;
+  width: 400px;
+  height: 40px;
+}
+
+#cms_content .m_body .contain .phonesex .u2 label {
+  float: left;
+  width: 80px;
+  line-height: 40px;
+  text-align: right;
+  margin-right: 20px;
+}
+
+#cms_content .m_body .contain .phonesex .u2 input {
+  float: left;
+  width: 180px;
+}
+
+#cms_content .m_body .contain .phonesex .u2 .sex {
+  width: 120px;
+}
+
+#cms_content .m_body .contain .phonesex .u2 p {
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#cms_content .m_body .contain .remark {
+  width: 800px;
+  height: 130px;
+}
+
+#cms_content .m_body .contain .remark label {
+  float: left;
+  width: 80px;
+  line-height: 40px;
+  text-align: right;
+  margin-right: 20px;
+}
+
+#cms_content .m_body .contain .remark textarea {
+  float: left;
+  width: 520px;
+}
+
+#cms_content .m_body .contain .u3 {
+  width: 100px;
+  height: 40px;
+  margin: 15px 100px;
+}

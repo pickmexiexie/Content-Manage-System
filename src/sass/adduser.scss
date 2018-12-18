@@ -1,0 +1,123 @@
+%pub{
+    .u1{
+        width: 800px;
+        height: 40px;
+        margin: 20px 0;
+        label{
+            float: left;
+            width: 80px;
+            line-height: 40px;
+            text-align: right;
+            margin-right: 20px;
+        }
+        input{
+            float: left;
+            width: 500px;
+        }
+        span{
+            float: left;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+    }
+}
+
+#cms_content {
+    #location {
+        background: #17a2b8;
+        width: 1130px;
+        height: 45px;
+        margin: 10px;
+        font-size: 14px;
+        border-radius: 3px;
+
+        li {
+            line-height: 45px;
+            margin: 0 15px;
+        }
+
+        .user {
+            float: left;
+            color: #666;
+
+            span {
+                margin: 0 5px;
+            }
+
+            b {
+                color: #333;
+            }
+        }
+
+        #cms_out {
+            float: right;
+
+            a {
+                color: #333;
+            }
+
+            a:hover {
+                color: rgb(196, 4, 4);
+            }
+        }
+    }
+
+    .m_body {
+        height: 100%;
+        padding-top: 30px;
+        .contain{
+            margin: 0 50px;
+            @extend %pub;
+            .phonesex{
+                width: 800px;
+                height: 40px;
+                margin: 15px 0;
+                // float: left;
+                .u2{
+                    float: left;
+                    width: 400px;
+                    height: 40px;
+                    label{
+                        float: left;
+                        width: 80px;
+                        line-height: 40px;
+                        text-align: right;
+                        margin-right: 20px;
+                    }
+                    input{
+                        float: left;
+                        width: 180px;
+                    }
+                    .sex{
+                        width: 120px;
+                    }
+                    p{
+                        float: left;
+                        margin-left: 10px;
+                        margin-top: 10px;
+                    }
+                }
+            }
+            .remark{
+                width: 800px;
+                height: 130px;
+                label{
+                    float: left;
+                    width: 80px;
+                    line-height: 40px;
+                    text-align: right;
+                    margin-right: 20px;
+                }
+                textarea{
+                    float: left;
+                    width: 520px;
+                }
+            }
+            .u3{
+                width: 100px;
+                height: 40px;
+                margin: 15px 100px;
+            }
+        }
+    }
+}

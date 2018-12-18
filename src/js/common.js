@@ -16,4 +16,4 @@ document.addEventListener('DOMContentLoaded',function(){
             listchild[this.getAttribute('idx')].classList.remove('hide');
         }
     }
-})
+});

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>订单列表</title>
+    <link rel="icon" type="image/x-icon" href="../image/login/tiger.ico">
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/common.css" />
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="../css/orderlist.css" />
+    <script type="text/javascript" src="../js/common.js"></script>
+</head>
+<body>
+    <div id="cms">
+        <div id="header">
+            <div class="imcontainer">
+                <div class="h_logo fl">
+                    <img src="../image/taoshu_logo.gif" alt="taoshu.com" />
+                </div>
+                <div class="h_title fl">
+                    <h1 id="h_title_name">淘书网后台管理系统</h1>
+                </div>
+            </div>
+        </div>
+        <div id="main">
+            <div class="imcontainer">
+                <div id="cms_list">
+                    <h1>管理类目</h1>
+                    <ul id="cms_list_box">
+                        <li>
+                            <div class="cms_list_name">商品管理</div>
+                            <div class="cms_list_child hide">
+                                <div id="cms_goodlist" class="cd"><a class="bl" href="goodlist.html">商品列表</a></div>
+                                <div id="cms_listkind" class="cd"><a class="bl" href="listkind.html">商品分类</a></div>
+                                <div id="cms_addgood" class="cd"><a class="bl" href="addgood.html">添加商品</a></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="cms_list_name">用户管理</div>
+                            <div class="cms_list_child hide">
+                                <div id="cms_userlist" class="cd"><a class="bl" href="userlist.html">用户列表</a></div>
+                                <div id="cms_adduser" class="cd"><a class="bl" href="adduser.html">添加用户</a></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="cms_list_name">订单管理</div>
+                            <div class="cms_list_child hide">
+                                <div id="cms_orderlist" class="cd"><a class="bl" href="orderlist.html">订单列表</a></div>
+                            </div>
+                        </li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div id="cms_content">
+                    <nav id="location">
+                        <ol class="info">
+                        <li class="user">首页<span>/</span>用户管理<span>/</span><b>订单列表</b></li>
+                        <li id="cms_out"><a href="login.html">退出登录</a></li>
+                        </ol>
+                    </nav>
+                    <div class="button f16">
+                        <a href="adduser.html"><li class="add clearfix"><img src="../image/userlist/add.png" alt="">添加</li></a>
+                        <li class="delete clearfix"><img src="../image/userlist/delete.png" alt="">删除</li>
+                    </div>
+                    <div id="cms_users">
+                        <div class="cms_user">
+                            <li class="check clearfix"><input type="checkbox"></li>
+                            <li class="uid clearfix">ID</li>
+                            <li class="username clearfix">用户名</li>
+                            <li class="sex clearfix">性别</li>
+                            <li class="age clearfix">年龄</li>
+                            <li class="city clearfix">城市</li>
+                            <li class="title clearfix">签名</li>
+                            <li class="time clearfix">注册时间</li>
+                            <li class="word clearfix">操作</li>
+                        </div>
+                        <div id="userinf">
+                            <ul>
+                                <li class="check clearfix"><input type="checkbox"></li>
+                                <li class="uid clearfix">1</li>
+                                <li class="username clearfix">ligouhai</li>
+                                <li class="sex clearfix">不详</li>
+                                <li class="age clearfix">不详</li>
+                                <li class="city clearfix">东京</li>
+                                <li class="title clearfix">我只想飞翔</li>
+                                <li class="time clearfix">2011年11月11日</li>
+                                <li class="word clearfix">
+                                    <img src="../image/userlist/delete.png" alt="" class="li_delete">
+                                </li>
+                            </ul>
+                            <!-- <ul>
+                                <li class="check clearfix"><input type="checkbox"></li>
+                                <li class="uid clearfix">ID</li>
+                                <li class="username clearfix">用户名</li>
+                                <li class="sex clearfix">性别</li>
+                                <li class="age clearfix">年龄</li>
+                                <li class="city clearfix">城市</li>
+                                <li class="title clearfix">签名</li>
+                            </ul> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="imcontainer">
+                <p>系统版权归淘书公司所有</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
